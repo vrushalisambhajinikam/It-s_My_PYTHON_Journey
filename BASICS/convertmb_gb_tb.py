@@ -1,0 +1,7 @@
+byte=int(input("Enterbytes:"))
+mb=byte/(1024*1024)
+gb=byte/(1024*1024*1024)
+tb=byte/(1024*1024*1024*1)
+print("{} Megabytes ".format(mb))
+print("{} Gigabytes ".format(gb))
+print("{} Terabytes ".format(tb))

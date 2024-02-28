@@ -1,0 +1,10 @@
+x=52
+y=15
+print("x&y=",x&y)
+print("x|y=",x|y)
+print("~x=",~x)
+print("x^y=",x^y)
+print("x>>1=",x>>3)
+print("y>>1=",y>>3)
+print("x<<1=",x<<1)
+print("y<<1=",y<<1)
