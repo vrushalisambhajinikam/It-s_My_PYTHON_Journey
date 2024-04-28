@@ -1,11 +1,11 @@
 list1=[10,53,65,10,53,69,34,75]
-print(list1)
-print("\n")
-temp=list1[0]
-for i in list1:
-    if temp==i:
-        list1.remove(i)
-    temp=list(i+1)
-    print(temp)
+ulist=[]
+duplist=[]
 
-print(list1)
+for i in list1:
+    if i not in ulist:
+        ulist.append(i)
+    else:
+        duplist.append(i)
+
+print(ulist)
